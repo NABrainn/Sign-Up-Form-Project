@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf)
+}
+
+body {
+    margin: 0;
+    font-family: Norse-Bold;
+    
+}
+
+#text-sidebar, footer, button {
+    color: white;
+}
+
+#main-flex-container {
+    display: flex;
+    height: 963px;
+}
+
+#left-container, #image-sidebar {
+    background-repeat: no-repeat;
+}
+
+#left-container, #main-sidebar, footer {
+    width: 546px;
+}
+
+#left-container {
+    background-image: url("image-resized.jpg");
+}
+
+#main-sidebar {
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    backdrop-filter: brightness(55%);
+}
+
+#image-sidebar {
+    background-image: url("odin-lined-resized.png");
+    height: 127px;
+    width: 95px;
+}
+
+#text-sidebar {
+    align-self: center;
+    font-size: 5em;
+}
+
+footer {
+    margin-top: 630px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1em;
+    justify-content: center;
+}
+
+span {
+    text-decoration: underline;
+}
