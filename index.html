@@ -22,7 +22,7 @@
             </div>
             <div id="form-container">
                 <section id="form-title">Let's do this!</section>
-                <form action="" method="post">
+                <form action="" method="post" id="login-form">
                     <div id="flex-form-container">
                         <div id="flex-left-form">
                             <div id="left-col-1">
@@ -45,7 +45,7 @@
                             </div>
                             <div id="right-col-2">
                                 <label for="phone-num">PHONE NUMBER</label><br>
-                                <input type="number" name="phone-num" id="phone-num"><br>
+                                <input type="text" name="phone-num" id="phone-num"><br>
                             </div>
                             <div id="right-col-3">
                                 <label for="conf-password">CONFIRM PASSWORD</label><br>
@@ -55,7 +55,7 @@
                     </div>
                 </form>
             </div>
-            <button type="submit">Create Account</button>
+            <button type="submit" form="login-form">Create Account</button>
             <p id="LOGIN">Already have an account? <span id="log-in-link">Log in</span></p>
         </div>
     </div>
