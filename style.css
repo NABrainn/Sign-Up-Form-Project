@@ -5,8 +5,7 @@
 
 body {
     margin: 0;
-    font-family: Norse-Bold;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #text-sidebar, footer, button {
@@ -15,7 +14,7 @@ body {
 
 #main-flex-container {
     display: flex;
-    height: 963px;
+    height:963px;
 }
 
 #left-container, #image-sidebar {
@@ -47,6 +46,7 @@ body {
 #text-sidebar {
     align-self: center;
     font-size: 5em;
+    font-family: Norse-Bold;
 }
 
 footer {
@@ -57,6 +57,99 @@ footer {
     justify-content: center;
 }
 
-span {
+.photo-link {
     text-decoration: underline;
+}
+
+#right-container {
+    background-color: #ededed;
+    width: 80%;
+}
+
+#quote-container, #form-title {
+    font-weight: 600;
+}
+
+#quote-container {
+    width: 580px;
+    margin-left: 30px;
+    margin-top: 130px;
+    line-height: 1.2em;
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}
+
+#form-container {
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+#form-title {
+    font-size: 1.3em;
+}
+
+#flex-form-container {
+    margin-top: 15px;
+    display: flex;
+    gap: 50px;
+}
+
+#flex-left-form, #flex-right-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+label {
+    font-size: 0.7em;
+    font-weight: 600;
+    color: #242323;
+}
+
+
+input {
+    background-color: #E5E7EB;
+    border: 1px solid grey;
+    border-radius: 2px;
+    height: 20px;
+    width: 250px;
+}
+
+input:focus {
+    border: 1px solid aqua;
+    outline: none;
+}
+
+
+
+
+
+
+button, #LOGIN {
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+button {
+    background-color:#596D48;
+    
+    
+    width: 160px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius:7px;
+}
+
+#LOGIN {
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+#log-in-link {
+    color:#596D48;
 }
